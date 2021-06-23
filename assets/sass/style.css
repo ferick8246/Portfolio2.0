@@ -1,0 +1,449 @@
+html,
+body {
+  max-width: 100% !important;
+}
+
+body {
+  background: #0a192f !important;
+  background-attachment: fixed;
+  color: #ccd6f6 !important;
+  margin: 0px;
+}
+
+nav {
+  background: rgba(6, 6, 11, 0.935);
+  -webkit-box-shadow: 0 6px 14px -8px #050505;
+          box-shadow: 0 6px 14px -8px #050505;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+i {
+  font-size: 40px;
+  color: #8892b0 !important;
+}
+
+i:hover {
+  color: #64ffda !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.intro-element {
+  border: solid 2px;
+  font-size: 900% !important;
+  border-width: 10px !important;
+  padding: 30px 70px 30px 70px;
+  border-radius: 20px !important;
+  margin-top: 300px !important;
+  max-width: 20rem;
+  -webkit-transition: 0.5s !important;
+  transition: 0.5s !important;
+  -webkit-box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
+          box-shadow: 6px 6px 6px 1px rgba(5, 5, 5, 0.411);
+}
+
+.nav-link:hover {
+  color: #64ffda !important;
+}
+
+.navbar-brand {
+  border: solid 2px;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+}
+
+.navbar-toggler {
+  border: none;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+}
+
+.navbar.scrolled {
+  background-color: rgba(10, 25, 47, 0.985) !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.img-accent {
+  padding: 2rem;
+  height: 24.5rem;
+  width: 24.5rem;
+  border-radius: 100rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#64ffda), to(#3a1297));
+  background: linear-gradient(to bottom, #64ffda, #3a1297);
+  position: absolute;
+}
+
+.self-img {
+  z-index: 3 !important;
+  position: relative;
+  border: double 0.4rem #73688d;
+}
+
+.ul-style {
+  margin: 0.25em;
+  list-style: none;
+}
+
+.ul-style::before {
+  content: "";
+  border-color: transparent #64ffda !important;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+.half-opacity {
+  opacity: 0.5 !important;
+}
+
+.footer-img {
+  -webkit-transform: rotate(180deg) !important;
+          transform: rotate(180deg) !important;
+  width: 100% !important;
+}
+
+.space-mono {
+  font-family: "Space Mono", monospace !important;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.accent-color {
+  color: #64ffda !important;
+}
+
+.header-color {
+  color: #ccd6f6 !important;
+}
+
+.content-color {
+  color: #8892b0 !important;
+}
+
+.card {
+  background: #0d1e33 !important;
+  -webkit-box-shadow: 0 6px 14px -8px #050505;
+          box-shadow: 0 6px 14px -8px #050505;
+}
+
+.card-text {
+  height: 135px !important;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-codepen,
+.fa-instagram,
+.fa-twitter {
+  -webkit-transition: all 80ms ease-in-out !important;
+  transition: all 80ms ease-in-out !important;
+}
+
+.project-card,
+.experience-img {
+  -webkit-transition: all 150ms ease-in-out !important;
+  transition: all 150ms ease-in-out !important;
+}
+
+.project-card:hover {
+  -webkit-transform: scale(1.02) !important;
+          transform: scale(1.02) !important;
+}
+
+.experience-img:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.skew {
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+}
+
+.experience-wrapper {
+  background-color: #06060b !important;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 10rem;
+  -webkit-transform: skewY(-3deg) !important;
+          transform: skewY(-3deg) !important;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #64ffda, #3a1297);
+  border-top: solid 5px;
+  -webkit-box-shadow: 0 6px 14px -8px #050505;
+          box-shadow: 0 6px 14px -8px #050505;
+}
+
+.no-skew {
+  -webkit-transform: skewY(3deg) !important;
+          transform: skewY(3deg) !important;
+}
+
+.custom-btn {
+  background: #0d1e33 !important;
+  border-color: #8892b0 !important;
+  color: #8892b0 !important;
+  font-family: "Space Mono", monospace !important;
+  border-radius: 11px !important;
+}
+
+.custom-btn:hover {
+  border-color: #64ffda !important;
+  color: #64ffda !important;
+}
+
+.blur {
+  -webkit-filter: blur(25px) !important;
+  -moz-filter: blur(25px) !important;
+  filter: blur(25px) !important;
+}
+
+.px-15 {
+  font-size: 15px;
+}
+
+.px-18 {
+  font-size: 18px;
+}
+
+.lead {
+  margin-top: 111px;
+  padding: 19px;
+}
+
+.lead-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.big-font {
+  font-size: 5vmax;
+}
+
+.smaller {
+  font-size: 35px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.dark {
+  background: #06060b !important;
+}
+
+.border-rounded, .resume-rounded {
+  border-radius: 75px !important;
+}
+
+.img-rounded-top {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+
+.img-rounded-bottom {
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
+
+.card-rounded {
+  border-radius: 25px !important;
+}
+
+.fa-github:hover {
+  color: #64ffda !important;
+}
+
+.fa-linkedin-in:hover {
+  color: #64c9ff !important;
+}
+
+.fa-codepen:hover {
+  color: #53a8dd !important;
+}
+
+.fa-instagram:hover {
+  color: #7252bd !important;
+}
+
+.fa-twitter:hover {
+  color: #6d3be0 !important;
+}
+
+footer {
+  background: #06060b !important;
+  padding: 40px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #64ffda, #3a1297);
+  border-top: solid 8px;
+}
+
+@media screen and (max-width: 2900px) {
+  .big-font {
+    font-size: 2.5vmax;
+  }
+
+  .macbook-code {
+    height: 1800px;
+  }
+}
+@media screen and (max-width: 2400px) {
+  .big-font {
+    font-size: 3vmax;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .big-font {
+    font-size: 4vmax;
+  }
+
+  .macbook-code {
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 1306px) {
+  html,
+body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .project-card {
+    height: 730px !important;
+    -webkit-transition: all 150ms ease-in-out !important;
+    transition: all 150ms ease-in-out !important;
+  }
+
+  .project-card:hover {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+  }
+
+  .query-center {
+    text-align: center !important;
+  }
+
+  .macbook-code {
+    height: 600px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img-accent {
+    display: none;
+  }
+
+  .big-font {
+    font-size: 6vmax;
+  }
+
+  .resume-rounded {
+    border-radius: 65px !important;
+  }
+
+  .experience-wrapper,
+footer {
+    border: none !important;
+  }
+}
+@media screen and (max-width: 417px) {
+  .experience-main, .bullet-points {
+    padding: 0rem !important;
+    margin: 0rem auto !important;
+  }
+
+  .experience-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: center;
+    padding: 0rem;
+    padding-top: 1rem;
+  }
+
+  .experience-img {
+    max-width: 5rem !important;
+  }
+
+  .experience-btn {
+    text-align: center !important;
+  }
+
+  .big-font {
+    font-size: 5vmax;
+  }
+
+  .project-card {
+    height: 650px !important;
+  }
+
+  .intro-element {
+    max-width: 12rem;
+    font-size: 450% !important;
+    border-width: 10px !important;
+    padding: 30px 70px 30px 70px;
+    border-radius: 20px !important;
+    margin-top: 200px !important;
+  }
+
+  .macbook-code {
+    height: 380px !important;
+  }
+
+  .resume-rounded {
+    border-radius: 55px !important;
+  }
+}
+@media screen and (max-width: 376px) {
+  .experience-img {
+    max-width: 4rem !important;
+  }
+
+  .project-card {
+    height: 630px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .experience-img {
+    max-width: 3.8rem !important;
+  }
+
+  .big-font {
+    font-size: 4vmax;
+  }
+
+  .smaller {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .project-card {
+    height: 560px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
