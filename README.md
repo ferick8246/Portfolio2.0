@@ -8,5 +8,5 @@ Created this page using: ・html ・css and Javascript
 Built with ・VS Code ・GitHub.
 
 
-Want to see for yourself[Click-here](https://ferick8246.github.io/MyPortfolio/)
+Want to see for yourself [Click-here](https://ferick8246.github.io/MyPortfolio/)
 
